@@ -3,7 +3,6 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
 }
 li a {
     display: block;
@@ -11,6 +10,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    background-color: #333;
 }
 li {
     float: left;
@@ -28,5 +28,5 @@ li a:hover{
     background-color: #111;
 }
 .active {
-    background-color: #04AA6D;
+    background-color: #04AA6D !important;
 }
