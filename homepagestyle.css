@@ -14,7 +14,11 @@ li a {
 }
 li {
     float: left;
-    border: 1px white}
+    border-right: 1px solid #bbb
+}
+li:last-child {
+    border-right: none;
+}
 a {
     display: block;
     padding: 8px;
